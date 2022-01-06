@@ -1,0 +1,132 @@
+<resources>
+    <string name="astr_app_name">Astronaut</string>
+
+    <!-- Strings related to Login & Register -->
+    <string name="login">Welcome</string>
+    <string name="signuphere"><u>Dont have an account? Sign up here</u></string>
+    <string name="loginButton">Log In</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">E-mail</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="seedPhrase">Seed phrase</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="createAccount">Create Account</string>
+    <string name="signup">Sign Up</string>
+    <string name="generateSeed">Generate seed phrase</string>
+    <string name="helper_text">Paste your seed phrase or generate a new one</string>
+    <string name="loginhere"><u>Already have an account? Log in here</u></string>
+
+    <!-- Strings related to dashboard -->
+    <string name="astr_hint_username">Username</string>
+    <string name="astr_hint_password">Password</string>
+    <string name="astr_button_login">Log in</string>
+    <string name="astr_button_cancel">Cancel</string>
+    <string name="astr_error_password">Missing Password.</string>
+    <string name="astr_helper_password">Password must contain at least 8 characters.</string>
+    <string name="astr_forgotpass"> Forgot password?</string>
+
+    <string name="astr_search_title">Search</string>
+    <string name="astr_filter_title">Filter</string>
+
+    <!-- Strings related to dashboard -->
+    <string name="astr_balance"> $200 </string>
+    <string name="astr_send_button">Send</string>
+    <string name="astr_receive_button">Receive</string>
+    <string name="astr_asset_button"> Assets</string>
+    <string name="astr_activity_button"> Activity</string>
+
+
+    <!-- Strings related to SendFragment -->
+    <string name="astr_text_view_asset"> Asset:</string>
+    <string name="astr_text_view_amount"> Amount:</string>
+    <string name="astr_text_view_address"> Address:</string>
+    <string name="astr_network_fee">Network fee:</string>
+    <string name="astr_networ_fee_amount">0.00034</string>
+    <string name="astr_total_send">Total:</string>
+    <string name="astr_total_send_amount">0.304</string>
+    <string name="astr_amount_hint"> Enter amount</string>
+    <string name="astr_address_hint"> Enter address</string>
+    <string name="astr_asset_hint"> Select asset</string>
+    <string name="astr_btn_cancel"> Cancel</string>
+    <string name="astr_btn_next"> Next </string>
+    <string name="astr_amount_error"> Select a criptocurrency</string>
+
+    <!-- Strings related to ReceiveFragment -->
+    <string name="astr_address_text">0x385DbEaf4F1373742d35760eb7c72d4Ac879ab92</string>
+    <string name="astr_text_view_asset_receive"> Asset:</string>
+
+    <!-- Strings related to AssetFragment -->
+    <string name="astr_no_activities"> No activities yet</string>
+
+    <!-- Strings related to TransactionFragment -->
+    <string name="astr_details"> Details</string>
+    <string name="astr_from"> from: 0xa234bf52232</string>
+    <string name="astr_direction"> > </string>
+    <string name="astr_to_transaction"> to: 0xdda434b133</string>
+    <string name="astr_transaction"> Transaction</string>
+    <string name="astr_nonce"> Nonce</string>
+    <string name="astr_nonce_value"> 237</string>
+    <string name="astr_amount"> Amount</string>
+    <string name="astr_amount_value"> 32 BNB</string>
+    <string name="astr_gasLimit"> Gas Limit (Units)</string>
+    <string name="astr_gasLimit_value"> 50000</string>
+    <string name="astr_gasUsed"> Gas Used (Units)</string>
+    <string name="astr_gasUsed_value"> 32456</string>
+    <string name="astr_gasPrice"> Gas Price (Gwei)</string>
+    <string name="astr_gasPrice_value"> 5</string>
+    <string name="astr_total"> Total</string>
+    <string name="astr_total_value"> 32.003454 BNB</string>
+    <string name="astr_activityLog"> Activity Log</string>
+    <string name="astr_transactionCreated"> Transaction created with a value of 32 BNB at 10:03 8/9/2021.</string>
+    <string name="astr_transactionSubmiteed"> Transaction submitted with a gas fee of 0.002 BNB at 10:03 8/9/2021.</string>
+    <string name="astr_transactionConfirmed"> Transaction confirmed with a  at 10:03 8/9/2021.</string>
+
+
+    <!-- Strings related to SeedFragment -->
+    <string name="astr_seed_hide"> *** **** ***** *** ***** ******* *** **** ***** *** ***** ******* ****** ***</string>
+    <string name="astr_seed_show">This is a placeholder for the seed activated by the show button</string>
+    <string name="astr_show_true"> Show</string>
+    <string name="astr_show_false"> Hide</string>
+
+
+    <!-- USERS CHANNEL -->
+    <string name="channel_courses">Usuarios</string>
+    <string name="courses_description">Notificaciones acerca de informacón del usuario</string>
+
+    <!-- CANAL OTROS -->
+    <string name="channel_others">Diversos</string>
+    <string name="others_description">Otras notificaciones</string>
+
+    <!-- Simple notifications -->
+    <string name="simple_title">Astronaut</string>
+    <string name="simple_body">¡Este es un ejemplo de notificacion!</string>
+
+
+
+    <!--    Appbar options-->
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Cerrar</string>
+
+
+    <string name="log_out_txt">Log Out</string>
+
+    <!--    Strings related to splash screen-->
+    <string name="astr_splash_copyright"> Made by Team 7 \nBedu</string>
+
+    <string name="astr_logo_content_description">Astronaut Logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--    QR generation notifications notifications-->
+    <string name="qr_notifications">QR generator</string>
+    <string name="qr_description">Notifications related to qr generation</string>
+    <string name="qr_generator_body">¡Se ha generado un codigo QR exitosamente!</string>
+
+    <!-- Progress Transactions notifications -->
+    <string name="transactions_title">Encrypting transaction</string>
+    <string name="transaction_description">Sending...</string>
+    <string name="transaction_completed">Transfer completed successfully</string>
+    <string name="sign_in_google">Sign In with Google</string>
+
+</resources>
